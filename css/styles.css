@@ -119,12 +119,12 @@ p {
   margin-right: 10px;
 }
 
-.active-link {
+.header__link--active {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.active-link:hover,
-.active-link:focus {
+.header__link--active:hover,
+.header__link--active:focus {
   color: var(--active-color);
   fill: var(--active-color);
 }
@@ -379,6 +379,17 @@ p {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
+
+.address__link--active {
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.address__link--active:hover,
+.address__link--active:focus {
+  color: var(--active-color);
+  fill: var(--active-color);
+}
+
 .address__map-link {
   display: inline-block;
   margin-bottom: 9px;
@@ -404,10 +415,10 @@ p {
   text-transform: uppercase;
   color: var(--white-color);
 }
-.footer-cocial-item {
+.cocial__item--color {
   background-color: rgba(255, 255, 255, 0.1);
 }
-.footer-cocial-link {
+.cocial__link--color {
   fill: var(--white-color);
 }
 .footer__cocial {
