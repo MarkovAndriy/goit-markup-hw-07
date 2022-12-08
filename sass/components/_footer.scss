@@ -1,6 +1,9 @@
 .footer {
     padding: 60px 0;
     background: var(--background-footer-color);
+    & .container {
+      display: flex;
+    }
     
   }
   .footer__logo {
@@ -20,12 +23,11 @@
   
   .address__link--active {
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  
-  .address__link--active:hover,
-  .address__link--active:focus {
+    &:hover,
+    &:focus {
     color: var(--active-color);
     fill: var(--active-color);
+    }
   }
   
   .address__map-link {
@@ -42,9 +44,7 @@
     display: inline-block;
     color: inherit;
   }
-  .footer .container {
-    display: flex;
-  }
+  
   .footer__title {
     margin-bottom: 20px;
     font-size: 14px;

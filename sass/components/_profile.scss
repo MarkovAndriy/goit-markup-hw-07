@@ -12,12 +12,13 @@
   .profile__list {
     display: flex;
   }
-  .profile__card-item:not(:first-child) {
-    margin-left: 30px;
-  }
+  
   
   .profile__card-item {
     position: relative;
+    &:not(:first-child) {
+      margin-left: 30px;
+    }
   }
   
   .profile__card-img {
