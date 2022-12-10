@@ -1,16 +1,14 @@
 .subscription {
     padding: 12px 0 0 113px;
     margin-left: auto;
-    
-  }
-  
-  .subscription__title {
-    margin-bottom: 20px;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--white-color); 
+    &__title {
+      margin-bottom: 20px;
+      font-size: 14px;
+      line-height: 1.14;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      color: var(--white-color); 
+    }
   }
   
   .form-subscription__input {

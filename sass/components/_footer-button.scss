@@ -10,18 +10,18 @@
     padding: 10px 0;
     margin-left: 12px;
     align-items: center;
-    
-    
-  }
-  
-  .footer-button__text {
+   &__text {
     margin-right: 34px;
   }
-  
-  .footer-button__icon {
+   &__icon {
     position: absolute;
     top: 13px;
     right: 28px;
     cursor: pointer;
     
   }
+  }
+  
+  
+  
+  
